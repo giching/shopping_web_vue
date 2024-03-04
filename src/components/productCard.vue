@@ -5,7 +5,7 @@
 
 <template>
   <main class="">
-    <div class="product-all col-span-3 bg-blue-300 flex items-center flex-col rounded-md">
+    <div class="product-all col-span-3 bg-slate-300 flex items-center flex-col rounded-md">
         <div class="product-img-all">
           <img src="https://images.unsplash.com/photo-1708972789135-dfb1e2f5f7d3?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="product-img">
         </div>
@@ -19,6 +19,7 @@
             <!-- 需做個防呆:如果數量<1 or >20 需跳顯示-->
             <input type="number" min="1" max="20" placeholder="0" class="amount p-1" >
             <button class="rounded-e-full">+</button>
+            <button class="cartPlusBtn p-2 me-5"><font-awesome-icon class="text-slate-800" icon="fa-solid fa-cart-plus" /></button>
         </div>
     </div>
   </main>
@@ -45,6 +46,9 @@ img{
 }
 button{
   @apply bg-slate-800 text-white w-8 h-8 ;
+}
+.cartPlusBtn{
+  @apply bg-transparent;
 }
 .amount{
   @apply w-10;

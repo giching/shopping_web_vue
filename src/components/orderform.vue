@@ -21,11 +21,11 @@ h1{
     font-size:28px !important;
 }
 .form-info{
-    width: 50%;
+    width: 80%;
     background-color: #dcd2f6;
-    padding: 10px;
+    padding: 20px;
     gap:5px;
-    @apply grid grid-cols-12 place-content-center;
+    @apply grid grid-cols-12 place-content-center rounded;
 
 }
 input{
