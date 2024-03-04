@@ -22,8 +22,11 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 import {faClipboardCheck}from '@fortawesome/free-solid-svg-icons'
+import {faCartPlus}from '@fortawesome/free-solid-svg-icons'
+import {faTableList}from '@fortawesome/free-solid-svg-icons'
+import {faGrip}from '@fortawesome/free-solid-svg-icons'
 
-library.add(faShoppingCart,faClipboardCheck);
+library.add(faShoppingCart,faClipboardCheck,faCartPlus,faTableList,faGrip);
 app.component('font-awesome-icon', FontAwesomeIcon)
 
 // new Vue({
