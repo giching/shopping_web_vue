@@ -25,11 +25,13 @@ export default{
         <img src="https://images.unsplash.com/photo-1708972789135-dfb1e2f5f7d3?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="product-img">
         <p class="product-name">product-name</p>
         <p class="product-price">product-price</p>
+        <p class="product-price">product-amount</p>
       </ol>
       <ol>
         <img src="https://images.unsplash.com/photo-1708972789135-dfb1e2f5f7d3?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="product-img">
         <p class="product-name">product-name</p>
         <p class="product-price">product-price</p>
+        <p class="product-price">product-amount</p>
       </ol>
       <p class="text-end w-[50%]">Total:$6600</p>
     </ul>
@@ -46,7 +48,7 @@ main{
   @apply w-full flex items-center justify-center flex-col;
 }
 ol{
-  @apply w-[50%] h-[60px] flex items-center justify-between border-b-2 border-gray-300 mb-3;
+  @apply w-[80%] h-[60px] flex items-center justify-between border-b-2 border-gray-300 mb-3;
 
 }
 img{
@@ -55,7 +57,7 @@ img{
   object-fit: cover;
 }
 .btn-com{
-  @apply w-[50%] h-[60px] flex items-center justify-between 
+  @apply w-[80%] h-[60px] flex items-center justify-between 
 }
 
 </style>
